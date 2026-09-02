@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <circle cx="50" cy="50" r="50" fill="#1e1b4b" />
+  <circle cx="50" cy="38" r="18" fill="#fcd34d" />
+  <!-- Hair & beard -->
+  <path d="M 32 30 Q 50 16 68 30 Q 66 22 50 20 Q 34 22 32 30 Z" fill="#0f172a" />
+  <path d="M 38 45 Q 50 62 62 45 Q 60 56 50 58 Q 40 56 38 45 Z" fill="#0f172a" />
+  <circle cx="43" cy="36" r="2" fill="#0f172a" />
+  <circle cx="57" cy="36" r="2" fill="#0f172a" />
+  <!-- Shirt -->
+  <path d="M 22 88 C 24 64 34 60 50 60 C 66 60 76 64 78 88 Z" fill="#059669" />
+  <polygon points="50,60 46,74 54,74" fill="#ffffff" />
+</svg>

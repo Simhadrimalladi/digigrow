@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <circle cx="50" cy="50" r="50" fill="#1e3a8a" />
+  <circle cx="50" cy="38" r="18" fill="#fcd34d" />
+  <!-- Hair & Glasses -->
+  <path d="M 32 32 Q 50 18 68 32 Q 68 22 50 20 Q 32 22 32 32 Z" fill="#1e293b" />
+  <rect x="36" y="34" width="11" height="8" rx="2" fill="none" stroke="#1e293b" stroke-width="2" />
+  <rect x="53" y="34" width="11" height="8" rx="2" fill="none" stroke="#1e293b" stroke-width="2" />
+  <line x1="47" y1="38" x2="53" y2="38" stroke="#1e293b" stroke-width="2" />
+  <!-- Smile -->
+  <path d="M 44 48 Q 50 53 56 48" fill="none" stroke="#b45309" stroke-width="2" stroke-linecap="round" />
+  <!-- Shirt -->
+  <path d="M 22 88 C 24 64 34 60 50 60 C 66 60 76 64 78 88 Z" fill="#2563eb" />
+  <polygon points="50,60 45,72 55,72" fill="#ffffff" />
+</svg>

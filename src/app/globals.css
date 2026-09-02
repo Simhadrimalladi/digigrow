@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #071b4d;
+  --color-navy-dark: #030d28;
+  --color-royal: #1746d4;
+  --color-royal-light: #2563eb;
+  --color-lightBlue: #f4f8ff;
+  --color-sectionBg: #f6f9fe;
+  --color-text: #0f172a;
+  --color-muted: #64748b;
+  --color-yellow: #facc15;
+  --color-green: #10b981;
+}
+
+@layer base {
+  html, body {
+    scroll-behavior: smooth;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+
+  ::selection {
+    background-color: #1746d4;
+    color: #ffffff;
+  }
+}
+
+/* Custom card and blob animations */
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-float {
+  animation: floatSlow 4s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: floatSlow 5s ease-in-out 1.5s infinite;
+}
